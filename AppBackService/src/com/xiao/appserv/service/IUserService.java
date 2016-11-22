@@ -2,9 +2,7 @@ package com.xiao.appserv.service;
 
 import com.xiao.appserv.entity.User;
 
-public class IUserService {
+public interface IUserService {
 
-	public User getUserById(int id){
-		return null;
-	}
+	public User getUserById(int id);
 }
