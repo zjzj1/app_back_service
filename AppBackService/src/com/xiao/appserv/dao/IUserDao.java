@@ -2,9 +2,17 @@ package com.xiao.appserv.dao;
 
 import com.xiao.appserv.entity.User;
 
-public class IUserDao {
+public interface IUserDao {
 
-	public User getUserById(){
-		return null;
-	} 
+	int deleteByPrimaryKey(Integer id);
+
+    int insert(User record);
+
+    int insertSelective(User record);
+
+    User selectByPrimaryKey(Integer id);
+
+    int updateByPrimaryKeySelective(User record);
+
+    int updateByPrimaryKey(User record);
 }
