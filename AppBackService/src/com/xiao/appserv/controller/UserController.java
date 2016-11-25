@@ -1,12 +1,12 @@
 package com.xiao.appserv.controller;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
-import javax.xml.registry.infomodel.User;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.xiao.appserv.entity.User;
 import com.xiao.appserv.service.IUserService;
 
 @Controller
